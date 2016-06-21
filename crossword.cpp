@@ -1,6 +1,8 @@
 /*
 
-Given a crossword puzzle (in this case, I've hard-coded it to be an 8x8 matrix) where each box is either a 1 or 0 (one being you can write in it, 0 being a black box that you cannot write in), determine if it is a valid crossword puzzle or not.
+Given a crossword puzzle (in this case, I've hard-coded it to be an 8x8 matrix)
+where each box is either a 1 or 0 (1 = white square, 0 = black square),
+determine if it is a valid crossword puzzle or not.
 
 */
 
@@ -23,6 +25,7 @@ void bfs(int input[][8], int visited[][8], const int x, const int y){
     queue<Coord> q;
     q.push(Coord(x,y));
     Coord current = q.front();
+    
     while (!q.empty()){
         current = q.front();
         for (int i = 0; i < 8; i++){
@@ -35,7 +38,6 @@ void bfs(int input[][8], int visited[][8], const int x, const int y){
         }
         q.pop();
     }
-    
     return;
 }
 
@@ -63,7 +65,6 @@ bool valid_crossword(int input[][8]){
             }
         }
     }
-    
     return true;
 }
 
