@@ -12,7 +12,6 @@ vector<vector<string>> csv_parser(string input, const char &row_delim, const cha
     for (char &c : input){
         if (c == q){
             quote = !quote;
-            cout << endl;
             continue;
         }
         if (quote){
@@ -31,7 +30,6 @@ vector<vector<string>> csv_parser(string input, const char &row_delim, const cha
         else {
             str += c;
         }
-        cout << endl;
     }
     one_row.push_back(str);
     output.push_back(one_row);
@@ -50,8 +48,13 @@ int main(){
     
     output = csv_parser(in, row, col, q);
     
-    cout << output[0][0] << ", " << output[0][1] << ", " << output[0][2] << endl;
-    cout << output[1][0] << ", " << output[1][1] << ", " << output[1][2] << endl;
+    cout << "[";
+    for (int i = 0; i < output.size(); i++){
+        for (int j = 0; j < output[0].size(); j++){
+            cout << "[" << output[i][j] << "] ";
+        }
+    }
+    cout << "]" << endl;
     
     return 0;
 }
