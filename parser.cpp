@@ -48,11 +48,12 @@ int main(){
     
     output = csv_parser(in, row, col, q);
     
-    cout << "[";
+    cout << "[" << endl;
     for (int i = 0; i < output.size(); i++){
         for (int j = 0; j < output[0].size(); j++){
             cout << "[" << output[i][j] << "] ";
         }
+        cout << endl;
     }
     cout << "]" << endl;
     
