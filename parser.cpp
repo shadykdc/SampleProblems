@@ -35,7 +35,7 @@ vector<vector<string>> csv_parser(string input, const char &row_delim, const cha
 
 int main(){
     
-    string in = "foo,bar,name: \"shea,|katie\"|\"yes,no\",fc, a";
+    string in = "foo,bar,name: \"shady,|k|\"|\"yes,no\",fc, a";
     const char &row = '|';
     const char &col = ',';
     const char &q = '"';
