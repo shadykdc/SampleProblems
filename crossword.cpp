@@ -2,7 +2,7 @@
 
 Given a crossword puzzle (in this case, I've hard-coded it to be an 8x8 matrix)
 where each box is either a 1 or 0 (1 = white square, 0 = black square),
-determine if it is a valid crossword puzzle or not.
+determine if it is a valid crossword puzzle or not (so, if the white squares are all connected).
 
 */
 
