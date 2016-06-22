@@ -57,7 +57,7 @@ int main(){
         cout << ":(" << endl;
     }
     
-    // should probably delete the nodes
+    // should probably delete the nodes/ dynamically allocated memory
     
     return 0;
 }
