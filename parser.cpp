@@ -1,3 +1,9 @@
+/*
+Given a string containing column delimiters, row delimiters, and quotation marks,
+output a two dimensional matrix of strings where delimiters inside the quotation marks
+are ignored. Don't worry about errors for now (i.e. not enough columns in a given row).
+*/
+
 #include <iostream>
 #include <vector>
 
