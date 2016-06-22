@@ -57,5 +57,7 @@ int main(){
         cout << ":(" << endl;
     }
     
+    // should probably delete the nodes
+    
     return 0;
 }
