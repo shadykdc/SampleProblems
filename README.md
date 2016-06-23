@@ -13,8 +13,7 @@ Use binary search to find an integer in a circular sorted list of integers where
 For example: find 3 in the following list using binary search: [6,7,8,9,0,1,2,3,4,5]
 
 ### crossword.cpp
-Determine if a grid of black and white squares (2D array of 0's and 1's) is a valid crossword puzzle.
-(i.e. if all of the white squares are connected).
+Determine if a grid of black and white squares (2D array of 0's and 1's) is a valid crossword puzzle (i.e. if all of the white squares are connected).
 
 ### linkedListPalindrome.cpp
 Determine if the given linked list is a palindrome.
