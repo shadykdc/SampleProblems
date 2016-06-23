@@ -63,7 +63,7 @@ string convert(int num){
             int hun = num/pow(10,i);
             if (hun > 0){
                 three_digits(hun, output);
-                output += hundreds[i] + ", ";
+                output += hundreds[i] + " ";
                 num = num - (((int)(num/pow(10,i)))*pow(10,i));
             }
         }
