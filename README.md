@@ -24,12 +24,12 @@ Of all the possible subarrays in a given array, find the one with the largest su
 ### parser.cpp
 Make a csv parser where a row and column delimiter is given with an input string and a 2D array is returned.
 
-### ticTacToe.cpp
-Devise a representation of an NxN tic-tac-toe game board, with the variation you only need M tokens in a row to win (in any direction), such that a win can be verified in O(1) time.  
-
 If there are quotation marks, ignore any delimiters inside the quotation marks.
 
 ### sayTheNumber.cpp
 Given an integer, output the english version of the number.
 
 For example: -10,234 would be negative ten thousand two hundred thirty four.
+
+### ticTacToe.cpp
+Devise a representation of an NxN tic-tac-toe game board, with the variation you only need M tokens in a row to win (in any direction), such that a win can be verified in O(1) time.  
