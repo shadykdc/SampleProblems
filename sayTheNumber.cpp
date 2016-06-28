@@ -42,7 +42,7 @@ void three_digits(int &num, string &output){
     return;
 }
 
-/* This function handles numbers -999,999,999,999 to 999,999,999,999 */
+/* This function handles numbers the whole range of numbers */
 string convert(int num){
     string output;
     
@@ -79,7 +79,7 @@ string convert(int num){
 /* main function */
 int main(){
     
-    int num = -0;
+    int num = -0; // change to long if you want to do really big numbers
     
     string output = convert(num);
     
