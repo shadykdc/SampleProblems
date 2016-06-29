@@ -7,7 +7,7 @@ Given a number represented as an array of numbers 0-9, add one to that number.
 
 For example: [2,0,9] => [2,1,0] or [9,9] => [1,0,0]
 
-### biggest_block.cpp
+### biggestBlock.cpp
 Find the size of the largest connected network in a M x N matrix. (Diagonal squares are considered connected).
 
 ### binSearchRotatedArray.cpp
