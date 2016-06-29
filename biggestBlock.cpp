@@ -20,12 +20,10 @@ int bfs(int board[M][N], int visited[M][N], int x, int y){
     int size = 1;
     queue<Coord> q;
     q.push(Coord(x,y));
-    int curr_x, curr_y;
     visited[x][y] = 1;
     
     while (!q.empty()){
         Coord current = q.front();
-        
         for (int i = -1; i <= 1; i++){
             for (int j = -1; j <= 1; j++){
                 if (current.x+i >= 0 && current.y+j >= 0 && current.x+i < M && current.y+j < N &&
@@ -37,10 +35,8 @@ int bfs(int board[M][N], int visited[M][N], int x, int y){
                 }
             }
         }
-        
         q.pop();
     }
-    
     return size;
 }
 
