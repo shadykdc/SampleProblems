@@ -29,6 +29,7 @@ int bfs(int board[M][N], int visited[M][N], int x, int y){
         for (int i = -1; i <= 1; i++){
             for (int j = -1; j <= 1; j++){
                 if (current.x+i >= 0 && current.y+j >= 0 && current.x+i < M && current.y+j < N &&
+                abs(i) + abs(j) != 2 && // include this line if you do not want to include diagonally adjacent squares
                 board[current.x+i][current.y+j] == 1 && visited[current.x+i][current.y+j] == 0){
                     q.push(Coord(current.x+i,current.y+j));
                     visited[current.x+i][current.y+j] = 1;
