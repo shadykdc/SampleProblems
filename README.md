@@ -34,5 +34,8 @@ Given an integer, output the english version of the number.
 
 For example: -10,234 would be negative ten thousand two hundred thirty four.
 
+### stackMinClass.cpp
+Design a stack that has the ability to find the minimum in O(1) time. 
+
 ### ticTacToe.cpp
-Devise a representation of an NxN tic-tac-toe game board, with the variation you only need M tokens in a row to win (in any direction), such that a win can be verified in O(1) time.  
+Devise a representation of an NxN tic-tac-toe game board, with the variation you only need M tokens in a row to win (in any direction), such that a win can be verified in O(1) time. 
